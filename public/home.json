@@ -1,0 +1,90 @@
+{
+  "type": "div",
+  "props": {
+    "className": "container"
+  },
+  "children": [
+    {
+      "type": "header",
+      "props": {
+        "className": "navbar"
+      },
+      "children": [
+        {
+          "type": "h1",
+          "props": {
+            "className": "logo"
+          },
+          "children": ["JSON renderer App"]
+        },
+        {
+          "type": "nav",
+          "props": {
+            "className": "nav-links"
+          },
+          "children": [
+            {
+              "type": "a",
+              "props": {
+                "href": "#home"
+              },
+              "children": ["Home"]
+            },
+            {
+              "type": "a",
+              "props": {
+                "href": "#about"
+              },
+              "children": ["About"]
+            },
+            {
+              "type": "a",
+              "props": {
+                "href": "#contact"
+              },
+              "children": ["Contact"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "main",
+      "props": {
+        "className": "hero"
+      },
+      "children": [
+        {
+          "type": "h2",
+          "props": {},
+          "children": ["Welcome to JSON renderer App"]
+        },
+        {
+          "type": "p",
+          "props": {},
+          "children": ["This is a simple React application that showcases dynamic rendering of a JSON structure into HTML."]
+        },
+        {
+          "type": "button",
+          "props": {
+            "className": "cta"
+          },
+          "children": ["Get Started"]
+        }
+      ]
+    },
+    {
+      "type": "footer",
+      "props": {
+        "className": "footer"
+      },
+      "children": [
+        {
+          "type": "p",
+          "props": {},
+          "children": ["© 2025 JSON renderer App. All rights reserved."]
+        }
+      ]
+    }
+  ]
+}
