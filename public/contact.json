@@ -51,26 +51,41 @@
     {
       "type": "main",
       "props": {
-        "className": "hero"
+        "className": "content"
       },
       "children": [
         {
-          "type": "h2",
-          "props": {},
-          "children": ["Welcome to JSON renderer App"]
+          "type": "img",
+          "props": {
+            "src": "https://media.licdn.com/dms/image/v2/C4E03AQEQvPAn5Ul7XQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1588441575221?e=1741824000&v=beta&t=SftDT43PkVdvzpFdsbEh3B4Wlr9NqccphOJJK07QTcw",
+            "alt": "Profile Picture",
+            "width": "200",
+            "height": "200"
+          }
         },
         {
           "type": "p",
-          "props": {},
-          "children": ["This is a simple React application that showcases dynamic rendering of a JSON structure into HTML."]
+          "props": {
+            "className": "email"
+          },
+          "children": ["Email: artturi.laitakari@gmail.com"]
         },
         {
-          "type": "a",
+          "type": "p",
           "props": {
-            "className": "cta",
-            "href": "mailto:artturi.laitakari@gmail.com"
+            "className": "linkedin"
           },
-          "children": ["Get Started"]
+          "children": [
+            "LinkedIn: ",
+            {
+              "type": "a",
+              "props": {
+                "href": "https://www.linkedin.com/in/artturilaitakari/",
+                "target": "_blank"
+              },
+              "children": ["Artturi Laitakari"]
+            }
+          ]
         }
       ]
     },

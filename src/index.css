@@ -1,5 +1,5 @@
 body {
-  background-color: #121212; /* Tummanharmaa taustaväri */
+  background-color: #0D1731; /* Tummansininen taustaväri */
   color: #ffffff; /* Valkoinen teksti */
   font-family: Arial, sans-serif;
   margin: 0;
@@ -17,7 +17,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 20px 0;
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid #024;
 }
 
 .logo {
@@ -54,6 +54,6 @@ body {
 .footer {
   text-align: center;
   padding: 20px 0;
-  border-top: 1px solid #333;
+  border-top: 1px solid #024;
   color: #ffffff;
 }

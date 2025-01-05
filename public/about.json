@@ -51,26 +51,18 @@
     {
       "type": "main",
       "props": {
-        "className": "hero"
+        "className": "content"
       },
       "children": [
         {
           "type": "h2",
           "props": {},
-          "children": ["Welcome to JSON renderer App"]
+          "children": ["JSON-RENDERER"]
         },
         {
           "type": "p",
           "props": {},
-          "children": ["This is a simple React application that showcases dynamic rendering of a JSON structure into HTML."]
-        },
-        {
-          "type": "a",
-          "props": {
-            "className": "cta",
-            "href": "mailto:artturi.laitakari@gmail.com"
-          },
-          "children": ["Get Started"]
+          "children": ["MVP malli tee-se-itse sivuston hallinta järjestelmästä"]
         }
       ]
     },

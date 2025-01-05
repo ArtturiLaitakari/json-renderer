@@ -3,9 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
     "@mui/material": "^6.3.0",
+    "babel-preset-react-app": "^10.0.1",
     "cra-template-typescript": "1.2.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
@@ -37,6 +39,9 @@
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^6.6.3",
-    "@testing-library/react": "^16.1.0"
+    "@testing-library/react": "^16.1.0",
+    "babel-jest": "^29.7.0",
+    "jest": "^27.5.1",
+    "jest-fetch-mock": "^3.0.3"
   }
 }
