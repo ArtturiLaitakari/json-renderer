@@ -3,10 +3,9 @@ import renderHTML from './renderHTML.tsx';
 
 function App() { 
   const [pageData, setPageData] = useState(null); 
-  const [page, setPage] = useState('');
 
-  const fetchPageData = (hash) => {
-    const page = `/${hash}.json`;
+  const fetchPageData = (location) => {
+    const page = `/${location}.json`;
     fetch(page)
       .then((response) => {
         if (!response.ok) {
@@ -20,9 +19,8 @@ function App() {
 
   useEffect(() => { 
     const handleHashChange = () => {
-      const hash = window.location.hash.substring(1) || 'home';
-      setPage(hash);
-      fetchPageData(hash);
+      const location = window.location.hash.substring(1) || 'home';
+      fetchPageData(location);
     };
 
     // Alkuperäinen lataus
