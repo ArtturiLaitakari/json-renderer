@@ -63,6 +63,14 @@
           "type": "p",
           "props": {},
           "children": ["MVP malli tee-se-itse sivuston hallinta järjestelmästä"]
+        },
+        {
+          "type": "Button",
+          "props": {
+            "variant": "contained",
+            "color": "primary"
+          },
+          "children": ["Click me"]
         }
       ]
     },
